@@ -61,4 +61,15 @@ body {
 }
 .link-btn:active {
   transform: scale(0.95);
+
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* всё в столбик */
+  }
+
+  button {
+    width: 100%;      /* на всю ширину экрана */
+    font-size: 16px;  /* меньше шрифт */
+  }
 }
