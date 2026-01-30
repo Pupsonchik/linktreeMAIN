@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: transparent;
+    place-items: center;
+    transition: 0.3s;
+}
+body {
+    background-color: white;
+    align-items: center;
+}
+.box {
+    display: grid;
+    margin-top: 50px;
+    place-items: center;
+    background-color: rgb(224, 224, 224);
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+.avatar-nick {
+    align-items: center;
+    margin: 40px 100px;
+}
+.avatar-nick img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    left: 35%;
+}
+.link-buttons {
+    display: column;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.link-btn img {
+    height: 30px;
+    width: 30px;
+    margin-left: 60px;
+}
+.link-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    padding: 40px 280px;
+    border-radius: 10px;
+    border: 0px;
+    margin-bottom: 20px;
+    text-align: start;
+    white-space: nowrap;
+    background-color: #fff;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+.link-btn:hover {
+    box-shadow: 0px 0px 10px 0px black;
+}
+.link-btn:active {
+  transform: scale(0.95);
+}
